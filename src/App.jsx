@@ -22,17 +22,11 @@ function App() {
       <main>
         <section id="core-concepts">
         <h2>Core Concepts</h2>
-        {CORE_CONCEPTS.map((conceptItem) => {
-          <ul>
+        <ul>
+          {CORE_CONCEPTS.map((conceptItem) => {
           <CoreConcept {...conceptItem}/>  
-          </ul>
         })}
-        {/* <ul> */}
-        {/* <CoreConcept {...CORE_CONCEPTS[0]}/>
-        <CoreConcept {...CORE_CONCEPTS[1]}/>
-        <CoreConcept {...CORE_CONCEPTS[2]}/>
-        <CoreConcept {...CORE_CONCEPTS[3]}/> */}
-        {/* </ul> */}
+        </ul>
         </section>
         <section id='examples'>
           <h2>Examples</h2>
